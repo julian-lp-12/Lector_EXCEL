@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             saveButton.disabled = true;
 
             // Cambia el texto del botón para indicar que se está enviando la solicitud
-            saveButton.value = 'Enviando...';
+            saveButton.value = 'Enviando....';
 
             // Recopila los datos de la tabla y crea un objeto JSON
             var tableData = [];
