@@ -1,0 +1,133 @@
+
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de carga */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.container {
+    max-width: 800px; /* Ajusta el ancho máximo de la tabla según tus necesidades */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-guardar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para los campos de entrada editables */
+.editable-input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+   
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+}
+
+.table th, .table td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+/* Estilos para las filas pares */
+.table tr:nth-child(even) {
+    background-color: #f0f0f0; /* Cambia el color de fondo para las filas pares según tus preferencias */
+}
+
+/* Estilos para las filas impares (opcional) */
+.table tr:nth-child(odd) {
+    background-color: #ffffff; /* Cambia el color de fondo para las filas impares según tus preferencias */
+}
+
+.table th {
+    background-color: #333;
+    color: #fff;
+}
+
